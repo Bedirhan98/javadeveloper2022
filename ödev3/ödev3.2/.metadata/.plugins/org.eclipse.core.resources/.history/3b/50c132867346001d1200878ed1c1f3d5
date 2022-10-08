@@ -1,0 +1,9 @@
+package classs;
+
+public class Customer {
+	int id;
+	String firsName;
+	String lastName;
+	String NationalIdendity;
+
+}

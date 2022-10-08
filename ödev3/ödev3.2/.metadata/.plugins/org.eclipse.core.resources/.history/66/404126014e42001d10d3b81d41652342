@@ -1,0 +1,13 @@
+package polymorphismDemo;
+
+public class main {
+
+	public static void main(String[] args) {
+		// LESSON 38
+		FileLogger a=new FileLogger();
+		a.Log("");
+		
+
+	}
+
+}

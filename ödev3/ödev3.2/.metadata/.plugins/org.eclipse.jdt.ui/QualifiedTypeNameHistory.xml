@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="polymorphismDemo.FileLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.ConsoleLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.BaseLogger"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="polymorphismDemo.EmailLogger"/>
+    <fullyQualifiedTypeName name="abstractClasses.GameCalculator"/>
+    <fullyQualifiedTypeName name="abstractClasses.ManGameCalculator"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
+    <fullyQualifiedTypeName name="CustomerManager"/>
+    <fullyQualifiedTypeName name="BaseDataBaseManager"/>
+    <fullyQualifiedTypeName name="java.nio.file.attribute.UserDefinedFileAttributeView"/>
+    <fullyQualifiedTypeName name="OracleDatabaseManager"/>
+    <fullyQualifiedTypeName name="javax.swing.Icon"/>
+    <fullyQualifiedTypeName name="interfaces.ICustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.CusromerDal"/>
+    <fullyQualifiedTypeName name="interfaces.OracleCustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.MySqlCustomerDal"/>
+    <fullyQualifiedTypeName name="oopWithNLayerdApp.core.logging.Logger"/>
+    <fullyQualifiedTypeName name="oopWithNLayerdApp.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="classs.CreditManager"/>
+    <fullyQualifiedTypeName name="classs.Customer"/>
+    <fullyQualifiedTypeName name="classs.CustomerManager"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="package1.CustomerManager"/>
+    <fullyQualifiedTypeName name="package1.Customer"/>
+    <fullyQualifiedTypeName name="package1.Company"/>
+    <fullyQualifiedTypeName name="package2.MilitaryCreditManager"/>
+    <fullyQualifiedTypeName name="package2.TeacherCreditManager"/>
+    <fullyQualifiedTypeName name="package2.CreditManager"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="package2.Customer"/>
+</qualifiedTypeNameHistroy>

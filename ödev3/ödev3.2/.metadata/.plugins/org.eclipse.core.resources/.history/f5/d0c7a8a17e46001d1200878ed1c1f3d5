@@ -1,0 +1,12 @@
+package package2;
+
+public class main {
+
+	public static void main(String[] args) {
+		CreditManager creditManager=new MilitaryCreditManager();
+		CreditManager creditManager1=new TeacherCreditManager();
+		
+
+	}
+
+}

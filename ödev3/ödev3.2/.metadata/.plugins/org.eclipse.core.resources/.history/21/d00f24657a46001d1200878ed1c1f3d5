@@ -1,0 +1,33 @@
+package package1;
+
+public class main {
+
+	public static void main(String[] args) {
+		CreditManager creditManager=new CreditManager();
+		creditManager.calculate();
+		creditManager.calculate();
+		creditManager.save();
+		
+		Person customer1 =new Person();
+		customer1.firsName="ali";
+		customer1.id=15;
+		customer1.lastName="veli";
+		customer1.NationalIdentity="415416";
+		
+		Company customer2 =new Company();
+		customer2.firsName="veli";
+		customer2.id=87;
+		customer2.lastName="ali";
+		customer2.taxNumber="45465";
+		
+		CustomerManager customerManager=new CustomerManager(customer1);
+		customerManager.add();
+		customerManager.delete();
+		CustomerManager customerManager1=new CustomerManager(customer2);
+		customerManager1.add();
+		customerManager1.delete();
+	
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package package2;
+
+public class main {
+
+	public static void main(String[] args) {
+		Customer customer1=new Customer();
+		customer1.id="15165";
+		customer1.name="micheal";
+		
+		
+
+	}
+
+}

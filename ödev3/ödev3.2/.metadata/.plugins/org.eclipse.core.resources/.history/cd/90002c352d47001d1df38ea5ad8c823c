@@ -1,0 +1,21 @@
+package package2;
+
+public class CustomerManager {
+	private Customer customer;
+	private CreditManager creditManager;
+	public CustomerManager(Customer customer,CreditManager creditManager) {
+		this.customer=customer;
+		this.creditManager=creditManager;
+	}
+	
+	public void add(){
+		System.out.println("Müşteri eklendi :"+customer.id+" "+creditManager);
+	}
+	public void delete(){
+		System.out.println("Müşteri silindi :"+customer.id+" "+creditManager);
+	}
+	
+
+}
+
+

@@ -1,0 +1,8 @@
+package package2;
+
+public class Customer {
+
+	String id;
+	String name;
+
+}

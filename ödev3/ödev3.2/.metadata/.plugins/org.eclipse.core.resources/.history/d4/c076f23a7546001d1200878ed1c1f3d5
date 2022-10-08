@@ -1,0 +1,20 @@
+package classs;
+
+public class main {
+
+	public static void main(String[] args) {
+		CreditManager creditManager=new CreditManager();
+		creditManager.calculate();
+		creditManager.calculate();
+		creditManager.save();
+		
+		Customer customer1 =new Customer();
+		customer1.firsName="ali";
+		customer1.id=15;
+		customer1.lastName="deli";
+		customer1.NationalIdentity="546846";
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package interfaces;
+
+public class MySqlCustomerDal implements ICustomerDal{
+	ICustomerDal customerDal;
+	@Override
+	public void Add(ICustomerDal Dal) {
+		System.out.println("My sql eklendi");
+		this.customerDal=Dal;
+		
+	}
+	
+	
+}

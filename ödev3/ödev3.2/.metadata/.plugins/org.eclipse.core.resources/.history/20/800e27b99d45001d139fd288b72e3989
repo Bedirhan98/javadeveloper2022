@@ -1,0 +1,15 @@
+package oopWithNLayerdApp.business;
+
+import oopWithNLayerdApp.dataAccess.JdbcProductDao;
+import oopWithNLayerdApp.entites.Product;
+
+public class ProductManager {
+	public void add(Product product) throws Exception {
+		if(product.getUnitPrice()<10) {
+		throw new Exception("Ürün fiyatı 10 dan küçük olamaz"); 
+		}
+	ProductDao productDao=new ProductDao(new JdbcProductDao());
+	productDao.add(product);			
+	}
+
+}

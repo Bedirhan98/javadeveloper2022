@@ -1,0 +1,23 @@
+package package1;
+
+public class main {
+
+	public static void main(String[] args) {
+		CreditManager creditManager=new CreditManager();
+		creditManager.calculate();
+		creditManager.calculate();
+		creditManager.save();
+		
+		Customer customer1 =new Customer();
+		customer1.firsName="ali";
+		customer1.id=15;
+		customer1.lastName="veli";
+		customer1.NationalIdentity="546846";
+		
+		CustomerManager customerManager=new CustomerManager();
+		customerManager.Add(customer1);
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		//Lesson 41
+		BaseDataBaseManager baseDataBaseManager=new BaseDataBaseManager() {
+			
+			@Override
+			public void getData() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package abstractClasses;
+
+public class main {
+
+	public static void main(String[] args) {
+		// Lesson 40
+		GameCalculator a=new GameCalculator() ;
+		a.hesapla();
+		
+		
+
+	}
+
+}

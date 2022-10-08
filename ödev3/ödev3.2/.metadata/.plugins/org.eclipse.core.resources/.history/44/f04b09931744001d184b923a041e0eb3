@@ -1,0 +1,5 @@
+package abstractClasses;
+
+public abstract class Main {
+
+}

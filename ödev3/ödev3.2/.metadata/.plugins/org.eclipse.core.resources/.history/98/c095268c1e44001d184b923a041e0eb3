@@ -1,0 +1,12 @@
+import java.sql.DatabaseMetaData;
+
+public class CustomerManager {
+	BaseDataBaseManager databaseManager;
+	
+	public void getCustomer() {
+		databaseManager.getData();
+		
+		
+	}
+
+}

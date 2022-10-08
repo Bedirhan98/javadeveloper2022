@@ -1,0 +1,11 @@
+package interfaces;
+
+public class MySqlCustomerDal implements ICustomerDal{
+	ICustomerDal customerManagers;
+	
+	public void Add() {
+		System.out.println("My sql eklendi");
+	
+		
+	}
+}

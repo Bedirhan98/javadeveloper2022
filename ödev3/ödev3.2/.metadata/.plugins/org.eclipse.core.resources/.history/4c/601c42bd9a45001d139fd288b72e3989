@@ -1,0 +1,19 @@
+package oopWithNLayerdApp;
+
+import java.security.PublicKey;
+
+import oopWithNLayerdApp.business.ProductManager;
+import oopWithNLayerdApp.entites.Product;
+
+public class main {
+
+	public static void main(String[] args) throws Exception {
+		Product product1= new Product(1,"Iphone",10000);
+		
+		ProductManager productManager=new ProductManager();
+		productManager.add(product1);
+		
+
+	}
+
+}

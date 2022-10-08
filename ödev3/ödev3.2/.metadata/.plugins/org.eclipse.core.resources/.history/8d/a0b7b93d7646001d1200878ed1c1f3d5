@@ -1,0 +1,9 @@
+package pocket1;
+
+public class Customer {
+	int id;
+	String firsName;
+	String lastName;
+	String NationalIdentity;
+
+}

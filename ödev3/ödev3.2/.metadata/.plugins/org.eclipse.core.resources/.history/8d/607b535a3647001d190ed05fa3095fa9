@@ -1,0 +1,12 @@
+package interfaces;
+
+public class CustomerManager {
+	ICustomerDal customersDal;
+
+	public void getCustomer(ICustomerDal customersDal) {
+		this.customersDal = customersDal;
+		customersDal.Add();
+
+	}
+
+}

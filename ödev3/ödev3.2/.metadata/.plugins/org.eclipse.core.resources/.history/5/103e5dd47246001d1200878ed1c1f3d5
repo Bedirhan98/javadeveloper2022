@@ -1,0 +1,23 @@
+package classs;
+
+public class CreditManager {
+	CreditManager creditManager=new CreditManager();
+	public CreditManager() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
+	public void calculate() {
+		System.out.println("Kredi hesaplandı");
+		
+	}
+	public void save() {
+		System.out.println("Kredi verildi");
+		
+	}
+	
+
+}

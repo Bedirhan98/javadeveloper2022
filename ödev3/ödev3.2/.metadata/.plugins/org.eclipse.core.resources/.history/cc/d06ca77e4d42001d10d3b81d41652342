@@ -1,0 +1,6 @@
+package polymorphismDemo;
+
+public class BaseLogger(String message) {
+	System.out.println("Loggerd to database : "+message);
+	
+}

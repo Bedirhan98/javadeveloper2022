@@ -1,0 +1,14 @@
+package package1;
+
+
+public class CustomerManager {
+	private Customer customer;
+	public CustomerManager(Customer customer) {
+		this.customer=customer;
+	}
+	
+	public void Add(Customer customer){
+		System.out.println("Müşteri eklendi : "+customer.firsName+" "+customer.lastName);
+	}
+
+}
