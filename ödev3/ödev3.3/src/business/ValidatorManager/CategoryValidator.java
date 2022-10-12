@@ -1,12 +1,11 @@
 package business.ValidatorManager;
+import entites.Category;
 
-import entites.BaseEntites;
-
-public class CategoryValidator {
+public abstract class CategoryValidator implements Validator{
 	private static String[] categoryList = { "Programlama", "Veritanı" };
 	static boolean valid;
 
-	public static boolean isValid(BaseEntites category) {
+	public static boolean isValid(Category category) {
 		for (String newName : categoryList) {
 
 			if (category.getName() == newName) {
@@ -20,4 +19,6 @@ public class CategoryValidator {
 		}
 		return valid;
 	}
-}
+
+
+	}

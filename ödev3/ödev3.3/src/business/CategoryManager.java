@@ -4,18 +4,20 @@ import business.ValidatorManager.CategoryValidator;
 import core.Logger;
 import dataAccess.BaseDao;
 import entites.BaseEntites;
+import entites.Category;
 
-public class CategoryManager extends BaseManager {
-	private BaseDao baseDao;
-	private Logger[] loggers;
-
+public  class CategoryManager implements BaseEntites{
+	 private BaseDao baseDao;
+	 private Logger[] loggers;
+	 
+	 
 	public CategoryManager(BaseDao baseDao, Logger[] loggers) {
 		this.baseDao = baseDao;
 		this.loggers = loggers;
 	}
 
-	@Override
-	public void add(BaseEntites category) throws Exception{
+
+	public void add(Category category) throws Exception {
 		if (CategoryValidator.isValid(category) == true) {
 
 			System.out.println("******************************");
@@ -29,13 +31,12 @@ public class CategoryManager extends BaseManager {
 			System.out.println("******************************");
 			throw new Exception("Kategori mevcut : " + category.getName());
 		}
-
+		 
 	}
-
-	@Override
-	public void delete(BaseEntites category) {
+		
+		
+	public void delete(Category category) {
 		System.out.println("Kategori silindi : " + category.getName());
-
 	}
 
 }

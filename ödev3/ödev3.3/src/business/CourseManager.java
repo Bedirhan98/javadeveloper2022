@@ -4,9 +4,10 @@ import business.ValidatorManager.CourseValidator;
 import core.Logger;
 import dataAccess.BaseDao;
 import entites.BaseEntites;
+import entites.Courses;
 
 
-public class CourseManager extends BaseManager {
+public class CourseManager implements BaseEntites {
 	private BaseDao baseDao;
 	private Logger[] loggers;
 
@@ -16,25 +17,24 @@ public class CourseManager extends BaseManager {
 		
 	}
 
-	public void add(BaseEntites course) throws Exception{
+	public void add(Courses course) throws Exception{
 		if (CourseValidator.isValid(course) == true) {
 
 			System.out.println("******************************");
-			System.out.println("Kurs eklendi : " + course.getName());
+			System.out.println("Kurs eklendi : " + Courses.class.getName());
 			baseDao.add(course);
 			for (Logger logger : loggers) {
-				logger.log(course.getName());
+				logger.log(Courses.class.getName());
 
 			}
 		} else {
-			throw new Exception("Kurs mevcut ya da kurs fiyati 0'dan kucuk : "+course.getName()+" "+course.getPrice()+"$");
+			throw new Exception("Kurs mevcut ya da kurs fiyati 0'dan kucuk : "+Courses.class.getName()+" "+Courses.class.getTypeParameters()+"$");
 		}
 
 	}
 
-	@Override
-	public void delete(BaseEntites course) {
-		System.out.println("Kurs silindi : " + course.getName());
+	public void delete(Courses course) {
+		System.out.println("Kurs silindi : " + Courses.class.getName());
 
 	}
 

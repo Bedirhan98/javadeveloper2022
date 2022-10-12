@@ -3,8 +3,10 @@ package business;
 import core.Logger;
 import dataAccess.BaseDao;
 import entites.BaseEntites;
+import entites.Category;
+import entites.Instructor;
 
-public class InstructorManager extends BaseManager {
+public class InstructorManager implements BaseEntites {
 	private BaseDao baseDao;
 	private Logger[] loggers;
 
@@ -13,19 +15,19 @@ public class InstructorManager extends BaseManager {
 		this.loggers = loggers;
 	}
 
-	@Override
-	public void add(BaseEntites instructor) {
+	
+	public void add(Instructor instructor) {
 		System.out.println("******************************");
-		System.out.println("Egitmen eklendi : " + instructor.getName());
+		System.out.println("Egitmen eklendi : " + Category.class.getName());
 		baseDao.add(instructor);
 		for (Logger logger : loggers) {
-			logger.log(instructor.getName());
+			logger.log(Category.class.getName());
 		}
 
 	}
 
-	@Override
-	public void delete(BaseEntites instructor) {
+	
+	public void delete(Instructor instructor) {
 		System.out.println("Eğitmen silindi : " + instructor.getName());
 
 	}

@@ -1,8 +1,10 @@
 package entites;
 
-public class Courses extends BaseEntites{
+public class Courses implements BaseEntites{
 	Instructor instructor;
 	public double price;
+	String name;
+	String id;
 	
 	
 	public Courses(String name,String id,Instructor instructor,double price) {
@@ -31,6 +33,26 @@ public class Courses extends BaseEntites{
 
 	public void setPrice(double price) {
 		this.price = price;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getId() {
+		return id;
+	}
+
+
+	public void setId(String id) {
+		this.id = id;
 	}
 
 }
